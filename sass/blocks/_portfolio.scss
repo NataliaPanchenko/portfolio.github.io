@@ -23,7 +23,7 @@
         &:hover {
             filter: grayscale(100%);
         }
-        &-pulse {
+        &-ready {
             filter: grayscale(0%);
             &:hover {
                 transition: 1s;
