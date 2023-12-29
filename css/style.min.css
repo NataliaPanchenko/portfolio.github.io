@@ -828,6 +828,13 @@ template {
 .portfolio__item:hover {
   filter: grayscale(100%);
 }
+.portfolio__item-pulse {
+  filter: grayscale(0%);
+}
+.portfolio__item-pulse:hover {
+  transition: 1s;
+  transform: scale(1.02);
+}
 
 .price {
   padding-top: 65px;

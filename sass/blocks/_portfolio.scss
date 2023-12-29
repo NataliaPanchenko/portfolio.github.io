@@ -23,5 +23,12 @@
         &:hover {
             filter: grayscale(100%);
         }
+        &-pulse {
+            filter: grayscale(0%);
+            &:hover {
+                transition: 1s;
+                transform: scale(1.02);
+            }
+        }
     }
 }
