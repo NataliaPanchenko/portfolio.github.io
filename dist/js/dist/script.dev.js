@@ -9,6 +9,11 @@ hamburger.addEventListener('click', function () {
 closeElem.addEventListener('click', function () {
   menu.classList.remove('active');
 });
+document.addEventListener('keydown', function (e) {
+  if (e.code === 'Escape' && menu.classList.contains('active')) {
+    menu.classList.remove('active');
+  }
+});
 var counters = document.querySelectorAll('.skills__ratings-counter'),
     lines = document.querySelectorAll('.skills__ratings-line span');
 counters.forEach(function (item, i) {

@@ -10,6 +10,12 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+document.addEventListener('keydown', (e) => {
+        if (e.code === 'Escape' && menu.classList.contains('active')) {
+            menu.classList.remove('active');
+        }
+    });
+
 const counters = document.querySelectorAll('.skills__ratings-counter'),
     lines = document.querySelectorAll('.skills__ratings-line span');
       
