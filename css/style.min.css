@@ -1236,4 +1236,8 @@ template {
     margin: 0 auto;
     line-height: 18px;
   }
+}
+.container {
+  font-size: 16px;
+  margin: 50px;
 }/*# sourceMappingURL=style.min.css.map */
