@@ -25,10 +25,10 @@
 .portfolio__item:hover {
   filter: grayscale(100%);
 }
-.portfolio__item-ready {
+.portfolio__item.ready {
   filter: grayscale(0%);
 }
-.portfolio__item-ready:hover {
-  transition: 1s;
-  transform: scale(1.02);
+.portfolio__item.ready:hover {
+  transition: 0.7s;
+  transform: scale(1.01);
 }

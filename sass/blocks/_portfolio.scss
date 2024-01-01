@@ -23,11 +23,11 @@
         &:hover {
             filter: grayscale(100%);
         }
-        &-ready {
+        &.ready {
             filter: grayscale(0%);
             &:hover {
-                transition: 1s;
-                transform: scale(1.02);
+                transition: 0.7s;
+                transform: scale(1.01);
             }
         }
     }
