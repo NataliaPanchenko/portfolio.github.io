@@ -956,6 +956,7 @@ template {
   align-items: center;
 }
 .contacts__policy input {
+  cursor: pointer;
   margin-right: 10px;
 }
 .contacts__input {
