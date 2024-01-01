@@ -21,6 +21,8 @@
 }
 .portfolio__item img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .portfolio__item:hover {
   filter: grayscale(100%);
