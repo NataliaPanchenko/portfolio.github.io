@@ -300,7 +300,7 @@ template {
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0 0;
 }
 
 .container {
@@ -1268,5 +1268,6 @@ template {
   }
 }
 .container {
-  background-color: red;
+  font-size: 16px;
+  margin: 50px;
 }
