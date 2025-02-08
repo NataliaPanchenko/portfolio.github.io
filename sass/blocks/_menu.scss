@@ -76,12 +76,12 @@
         &:hover {
             text-shadow: 0 0 1px #fff;
             &:before {
-                background-color: #fff;
+                background-color: #000;
                 border: 1px solid #000;
             }
         }
         a {
-            color: #fff;
+            color: #000;
         }
     }
     &__social {

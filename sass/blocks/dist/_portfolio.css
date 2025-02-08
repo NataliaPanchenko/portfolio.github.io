@@ -17,7 +17,7 @@
   grid-column: 2/4;
 }
 .portfolio__item {
-  transition: 0.6s;
+  transition: 0.5s;
 }
 .portfolio__item img {
   width: 100%;
@@ -31,6 +31,6 @@
   filter: grayscale(0%);
 }
 .portfolio__item.ready:hover {
-  transition: 0.7s;
-  transform: scale(1.01);
+  transition: 0.5s;
+  transform: scale(1.035);
 }

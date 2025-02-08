@@ -526,11 +526,11 @@ template {
   text-shadow: 0 0 1px #fff;
 }
 .menu__link:hover:before {
-  background-color: #fff;
+  background-color: #000;
   border: 1px solid #000;
 }
 .menu__link a {
-  color: #fff;
+  color: #000;
 }
 .menu__social {
   position: absolute;
@@ -820,7 +820,7 @@ template {
   grid-column: 2/4;
 }
 .portfolio__item {
-  transition: 0.6s;
+  transition: 0.5s;
 }
 .portfolio__item img {
   width: 100%;
@@ -834,8 +834,8 @@ template {
   filter: grayscale(0%);
 }
 .portfolio__item.ready:hover {
-  transition: 0.7s;
-  transform: scale(1.01);
+  transition: 0.5s;
+  transform: scale(1.035);
 }
 
 .price {
