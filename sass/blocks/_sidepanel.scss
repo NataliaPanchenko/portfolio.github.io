@@ -21,9 +21,14 @@
             transform: rotate(-90deg) translate(-30%, -278%);
             display: block;
             width: 150px;
+            
         }
     }
-    &.active {
-        background-color: red;
+    &__link {
+        transition: 500ms ease;
     }
+    &__link:hover {
+        transform: scale(1.1);
+    }
+    
 }

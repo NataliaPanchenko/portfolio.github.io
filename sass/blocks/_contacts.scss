@@ -35,7 +35,18 @@
         img {
             min-width: 30px;
             min-height: 30px;
+            transition: 0.5s ease;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
+        svg {
+            transition: 0.5s ease;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        
     }
     &__form {
         margin-top: 30px;
@@ -95,5 +106,9 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 21px; 
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.03);
+        }
     }
 }

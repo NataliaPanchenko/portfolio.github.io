@@ -24,6 +24,9 @@
   display: block;
   width: 150px;
 }
-.sidepanel.active {
-  background-color: red;
+.sidepanel__link {
+  transition: 500ms ease;
+}
+.sidepanel__link:hover {
+  transform: scale(1.1);
 }
