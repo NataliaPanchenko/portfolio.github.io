@@ -20,7 +20,7 @@ counters.forEach(function (item, i) {
   lines[i].style.width = item.innerHTML;
 });
 var initPosition = document.documentElement.scrollTop,
-    step = 500;
+    step = 450;
 var instagram = document.querySelectorAll("#instagram"),
     facebook = document.querySelectorAll("#gmail"),
     github = document.querySelectorAll("#github");

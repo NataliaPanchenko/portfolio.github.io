@@ -10,6 +10,7 @@
     &__photo {
         img {
             width: 100%;
+            border-radius: 24px; 
         }
     } 
     &__descr {
@@ -54,6 +55,7 @@
         grid-template: 45px 190px 45px / repeat(2, 280px);
         justify-content: space-between;
         row-gap: 27px;
+        
         label {
             display: block;
             position: absolute;
@@ -64,6 +66,7 @@
             margin-bottom: 0;
             top: -9px;
             left: 12px;
+            
         }
     }
     &__triggers {
@@ -89,6 +92,7 @@
             height: 100%;
             padding: 0 20px;
             font-size: 12px;
+            border-radius: 8px;
         }
     }
     &__textarea {
@@ -99,6 +103,7 @@
             height: 100%;
             resize: none;
             padding: 20px;
+            border-radius: 8px;
         }
     }
     &__btn {
@@ -107,6 +112,7 @@
         font-size: 14px;
         line-height: 21px; 
         transition: 0.5s ease;
+        border-radius: 16px;
         &:hover {
             transform: scale(1.03);
         }

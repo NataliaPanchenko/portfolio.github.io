@@ -24,7 +24,7 @@ counters.forEach((item, i) => {
 });
 
 var initPosition = document.documentElement.scrollTop,
-  step = 500;
+  step = 450;
 
 let instagram = document.querySelectorAll("#instagram"),
   facebook = document.querySelectorAll("#gmail"),

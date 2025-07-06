@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: flex-end;
     cursor: pointer;
+    transition: .5s;
     span {
         display: block;
         width: 30px;
@@ -16,6 +17,9 @@
     }
     span.long {
         width: 36px;
+    }
+    &:hover {
+        transform: scale(1.1);
     }
 }
 
@@ -78,7 +82,7 @@
             text-shadow: 0 0 1px #fff;
             transform: scale(1.03);
             &:before {
-                background-color: #000;
+                background-color: #fff;
                 border: 1px solid #000;
             }
         }
