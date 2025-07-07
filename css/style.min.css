@@ -1214,6 +1214,7 @@ template {
   }
   .about__wrapper {
     grid-template: 400px auto auto/1fr;
+    margin-top: 20px;
   }
   .about__skills {
     grid-template-columns: repeat(2, 260px);
@@ -1221,6 +1222,9 @@ template {
   .about__skills-item {
     grid-template-columns: 40px 200px;
     column-gap: 20px;
+  }
+  .about__photo {
+    display: none;
   }
   .resume {
     margin: 0;
@@ -1232,7 +1236,7 @@ template {
     row-gap: 40px;
   }
   .skills {
-    padding: 40px 0 0 20px;
+    padding: 40px 0 0 0;
   }
   .skills__items {
     padding: 0;
@@ -1298,18 +1302,21 @@ template {
   .promo__btns {
     margin-top: 30px;
   }
-  .about {
-    padding: 10px;
-    margin: 0 20px 0 20px;
-  }
-  .about img {
-    max-width: 400px;
+  .promo__title {
+    font-size: 18px;
+    margin-right: 10px;
   }
   .about__wrapper {
-    grid-template: 340px auto auto/1fr;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .about__text {
+    grid-template-columns: 1fr;
   }
   .about__skills {
     grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 30px;
   }
   .resume {
     padding-left: 12px;
@@ -1321,16 +1328,25 @@ template {
     margin-top: 20px;
   }
   .skills__ratings {
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 250px);
   }
   .price__wrapper {
     display: grid;
+    padding: 0;
   }
   .contacts {
-    padding-bottom: 50px;
+    padding-top: 20px;
   }
   .contacts__form {
     grid-template: 45px 45px 190px minmax(45px, auto)/1fr;
+  }
+  .contacts__title {
+    text-align: center;
+  }
+  .contacts__title::before {
+    top: -6px;
+    left: 52%;
+    transform: translateX(-50%);
   }
   .contacts__textarea {
     grid-column: unset;

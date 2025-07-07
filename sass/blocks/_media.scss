@@ -216,6 +216,7 @@
        
         &__wrapper {
             grid-template: 400px auto auto / 1fr;
+            margin-top: 20px;
         }
         &__skills {
             grid-template-columns: repeat(2, 260px);
@@ -223,6 +224,11 @@
                 grid-template-columns: 40px 200px;
                 column-gap: 20px;
             }
+        }
+        &__photo{
+            
+                display: none;
+            
         }
 
     }
@@ -236,7 +242,7 @@
         }
     }
     .skills {
-        padding: 40px 0 0 20px;
+        padding: 40px 0 0 0;
         &__items {
             padding: 0;
             justify-content: center;
@@ -308,18 +314,23 @@
         &__btns {
             margin-top: 30px;
         }
+        &__title {
+            font-size: 18px;
+            margin-right: 10px;
+        }
     }
     .about {
-        padding: 10px;
-        margin: 0 20px 0 20px;
-        img{
-            max-width: 400px;
-        }
         &__wrapper {
-            grid-template: 340px auto auto / 1fr;
+            grid-template-columns: 1fr;
+            padding: 10px; 
+        }
+        &__text {
+            grid-template-columns: 1fr;
         }
         &__skills {
             grid-template-columns: 1fr;
+            gap: 20px;
+            padding-top: 30px;
         }
     }
     .resume {
@@ -334,18 +345,27 @@
             margin-top: 20px;
         }
         &__ratings {
-            grid-template-columns: repeat(auto-fit,300px);
+            grid-template-columns: repeat(auto-fit,250px);
         }
     }
     .price {
         &__wrapper {
             display: grid;
+            padding: 0;
         }
     }
     .contacts {
-        padding-bottom: 50px;
+        padding-top: 20px;
         &__form {
             grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+        }
+        &__title{
+            text-align: center;
+            &::before {
+                top: -6px;
+                left: 52%;
+                transform: translateX(-50%);
+            }
         }
         &__textarea {
             grid-column: unset;
