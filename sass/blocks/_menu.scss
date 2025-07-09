@@ -93,29 +93,27 @@
     &__social {
         position: absolute;
         bottom: 50px;
-        width: 90px;
+        width: 120px;
         align-items: center;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 55%;
+        transform: translateX(-55%);
         &__link {
-        svg {
-            transition: 500ms ease;
-            &:hover {
-            transform: scale(1.2);
-        }
-        }
-        
+            svg {
+                transition: 500ms ease;
+                &:hover {
+                    transform: scale(1.2);
+                }
+                margin-right: 10px;
+            }
         }
     }
-    
-    
     &__overlay {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #fff;
+        background-color: #edebe6;
         opacity: .75;
 
     }
