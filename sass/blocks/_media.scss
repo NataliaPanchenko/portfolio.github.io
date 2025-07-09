@@ -61,7 +61,7 @@
             grid-template-columns: repeat(auto-fit, 280px);
             grid-auto-rows: 280px;
             justify-content: space-around;
-            row-gap: 35px;
+            row-gap: 20px;
             .horisontal, .vertical {
                 grid-row: unset;
                 grid-column: unset;
@@ -213,13 +213,13 @@
         }
     }
     .about {
-       
+       margin: 20px;
         &__wrapper {
             grid-template: 400px auto auto / 1fr;
             margin-top: 20px;
         }
         &__skills {
-            grid-template-columns: repeat(2, 260px);
+            grid-template-columns: repeat(2, 1fr);
             &-item {
                 grid-template-columns: 40px 200px;
                 column-gap: 20px;
@@ -243,10 +243,11 @@
     }
     .skills {
         padding: 40px 0 0 0;
+        margin: 0;
         &__items {
             padding: 0;
             justify-content: center;
-            gap: 20px;
+            gap: 10px;
         }
         &__ratings {
             grid-template-columns: repeat(auto-fit, 320px);
